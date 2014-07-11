@@ -16,6 +16,7 @@
 #import "TapProgressViewController.h"
 #import "BackgroundGradientViewController.h"
 #import "DrawViewController.h"
+#import "GraphAnimationViewController.h"
 
 @interface MainTableViewController (){
     NSArray *examples;
@@ -39,7 +40,8 @@
                      @"Gradient mask",
                      @"Tap progress",
                      @"Background gradient",
-                     @"Draw"
+                     @"Draw",
+                     @"Graph animation"
                      ];
     }
     return self;
@@ -120,6 +122,9 @@
     }else if (indexPath.row == 7){
         DrawViewController *draw = [[DrawViewController alloc] init];
         [self.navigationController pushViewController:draw animated:YES];
+    }else if (indexPath.row == 8){
+        GraphAnimationViewController *graph = [[GraphAnimationViewController alloc] init];
+        [self.navigationController pushViewController:graph animated:YES];
     }
 }
 

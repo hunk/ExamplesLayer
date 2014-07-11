@@ -30,6 +30,8 @@
 		B46895D0196B493400A9ED24 /* GradientCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46895CF196B493400A9ED24 /* GradientCircleViewController.m */; };
 		B46895D3196B55AF00A9ED24 /* GradientMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46895D2196B55AF00A9ED24 /* GradientMaskViewController.m */; };
 		B46895D6196B619800A9ED24 /* TapProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46895D5196B619800A9ED24 /* TapProgressViewController.m */; };
+		B4FEC27619705DDC00C484A4 /* GraphAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FEC27519705DDC00C484A4 /* GraphAnimationViewController.m */; };
+		B4FEC27A19705EA100C484A4 /* graph_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B4FEC27919705EA100C484A4 /* graph_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,9 @@
 		B46895D2196B55AF00A9ED24 /* GradientMaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientMaskViewController.m; sourceTree = "<group>"; };
 		B46895D4196B619800A9ED24 /* TapProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapProgressViewController.h; sourceTree = "<group>"; };
 		B46895D5196B619800A9ED24 /* TapProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapProgressViewController.m; sourceTree = "<group>"; };
+		B4FEC27419705DDC00C484A4 /* GraphAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphAnimationViewController.h; sourceTree = "<group>"; };
+		B4FEC27519705DDC00C484A4 /* GraphAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphAnimationViewController.m; sourceTree = "<group>"; };
+		B4FEC27919705EA100C484A4 /* graph_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph_bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				B46895C9196B2D0400A9ED24 /* bat.png */,
+				B4FEC27919705EA100C484A4 /* graph_bg.png */,
 				B46895BF196B117B00A9ED24 /* Examples */,
 				B468959C196B0E5800A9ED24 /* AppDelegate.h */,
 				B468959D196B0E5800A9ED24 /* AppDelegate.m */,
@@ -201,6 +207,8 @@
 				B42D6D88196C718B00D3A7A4 /* BackgroundGradientViewController.m */,
 				B42D6D8A196C7EAA00D3A7A4 /* DrawViewController.h */,
 				B42D6D8B196C7EAA00D3A7A4 /* DrawViewController.m */,
+				B4FEC27419705DDC00C484A4 /* GraphAnimationViewController.h */,
+				B4FEC27519705DDC00C484A4 /* GraphAnimationViewController.m */,
 			);
 			name = Examples;
 			sourceTree = "<group>";
@@ -281,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B46895CA196B2D0400A9ED24 /* bat.png in Resources */,
+				B4FEC27A19705EA100C484A4 /* graph_bg.png in Resources */,
 				B4689598196B0E5800A9ED24 /* InfoPlist.strings in Resources */,
 				B46895A0196B0E5800A9ED24 /* Images.xcassets in Resources */,
 			);
@@ -311,6 +320,7 @@
 				B46895D3196B55AF00A9ED24 /* GradientMaskViewController.m in Sources */,
 				B46895C8196B214200A9ED24 /* MaskCircleViewController.m in Sources */,
 				B46895CD196B34C600A9ED24 /* OscillationLineViewController.m in Sources */,
+				B4FEC27619705DDC00C484A4 /* GraphAnimationViewController.m in Sources */,
 				B46895C2196B11A000A9ED24 /* ProgressViewController.m in Sources */,
 				B46895D6196B619800A9ED24 /* TapProgressViewController.m in Sources */,
 			);

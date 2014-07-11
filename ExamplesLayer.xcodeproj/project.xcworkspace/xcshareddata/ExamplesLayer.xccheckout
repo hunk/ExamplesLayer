@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5A29183F-80C1-4495-B677-84B1964477E7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ExamplesLayer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>086B2B02-BF5F-4188-A787-2F35691FAE2B</key>
+		<string>ssh://github.com/hunk/ExamplesLayer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ExamplesLayer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>086B2B02-BF5F-4188-A787-2F35691FAE2B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/hunk/ExamplesLayer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>086B2B02-BF5F-4188-A787-2F35691FAE2B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>086B2B02-BF5F-4188-A787-2F35691FAE2B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ExamplesLayer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
