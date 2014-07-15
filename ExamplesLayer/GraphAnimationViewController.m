@@ -100,7 +100,6 @@
     CGFloat offsetX = 16.0;
     CGFloat step = (float)100/360;
     for (int i = 0; i <= 990; i=i+5) {
-        NSLog(@"%f",i*step);
         [path addLineToPoint:CGPointMake(
                                          ( i*step ) + offsetX,
                                          offsetY + ( ( sin( DEG2RAD(i) ) ) * 43 ) )

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4186CA219708E3C00B8F54B /* GraphBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4186CA119708E3C00B8F54B /* GraphBarViewController.m */; };
+		B4186CA619708F1400B8F54B /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = B4186CA519708F1400B8F54B /* bg2.png */; };
 		B42D6D89196C718B00D3A7A4 /* BackgroundGradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42D6D88196C718B00D3A7A4 /* BackgroundGradientViewController.m */; };
 		B42D6D8C196C7EAA00D3A7A4 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42D6D8B196C7EAA00D3A7A4 /* DrawViewController.m */; };
 		B468958E196B0E5800A9ED24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B468958D196B0E5800A9ED24 /* Foundation.framework */; };
@@ -45,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4186CA019708E3C00B8F54B /* GraphBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphBarViewController.h; sourceTree = "<group>"; };
+		B4186CA119708E3C00B8F54B /* GraphBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphBarViewController.m; sourceTree = "<group>"; };
+		B4186CA519708F1400B8F54B /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
 		B42D6D87196C718B00D3A7A4 /* BackgroundGradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundGradientViewController.h; sourceTree = "<group>"; };
 		B42D6D88196C718B00D3A7A4 /* BackgroundGradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundGradientViewController.m; sourceTree = "<group>"; };
 		B42D6D8A196C7EAA00D3A7A4 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
@@ -145,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				B46895C9196B2D0400A9ED24 /* bat.png */,
+				B4186CA519708F1400B8F54B /* bg2.png */,
 				B4FEC27919705EA100C484A4 /* graph_bg.png */,
 				B46895BF196B117B00A9ED24 /* Examples */,
 				B468959C196B0E5800A9ED24 /* AppDelegate.h */,
@@ -209,6 +215,8 @@
 				B42D6D8B196C7EAA00D3A7A4 /* DrawViewController.m */,
 				B4FEC27419705DDC00C484A4 /* GraphAnimationViewController.h */,
 				B4FEC27519705DDC00C484A4 /* GraphAnimationViewController.m */,
+				B4186CA019708E3C00B8F54B /* GraphBarViewController.h */,
+				B4186CA119708E3C00B8F54B /* GraphBarViewController.m */,
 			);
 			name = Examples;
 			sourceTree = "<group>";
@@ -291,6 +299,7 @@
 				B46895CA196B2D0400A9ED24 /* bat.png in Resources */,
 				B4FEC27A19705EA100C484A4 /* graph_bg.png in Resources */,
 				B4689598196B0E5800A9ED24 /* InfoPlist.strings in Resources */,
+				B4186CA619708F1400B8F54B /* bg2.png in Resources */,
 				B46895A0196B0E5800A9ED24 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +324,7 @@
 				B46895C5196B149700A9ED24 /* GradientView.m in Sources */,
 				B42D6D89196C718B00D3A7A4 /* BackgroundGradientViewController.m in Sources */,
 				B468959E196B0E5800A9ED24 /* AppDelegate.m in Sources */,
+				B4186CA219708E3C00B8F54B /* GraphBarViewController.m in Sources */,
 				B468959A196B0E5800A9ED24 /* main.m in Sources */,
 				B46895BE196B0E9E00A9ED24 /* MainTableViewController.m in Sources */,
 				B46895D3196B55AF00A9ED24 /* GradientMaskViewController.m in Sources */,
